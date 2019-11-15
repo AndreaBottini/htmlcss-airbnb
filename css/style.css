@@ -5,12 +5,58 @@
 }
 .container {
   padding: 20px;
-  text-align: center;
+}
+.capitaleA {
+  height: 30vh;
+  width: 20%;
+  background-image: url(../img/berlino.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  border: 3px solid black;
 }
 
-img {
-  height: 200px;
-  width: 300px;
-  background-color: grey;
-  background: rgba(0, 0, 0, 0.8);
+.capitaleB {
+  height: 30vh;
+  width: 20%;
+  background-image: url(../img/istanbul.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  border: 3px solid black;
+
+}
+
+.capitaleC {
+  height: 30vh;
+  width: 20%;
+  background-image: url(../img/Roma.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  border: 3px solid black;
+}
+
+.capitaleD {
+  height: 30vh;
+  width: 20%;
+  background-image: url(../img/tokyo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  border: 3px solid black;
+}
+
+.trasparenza {
+  height: 30vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
