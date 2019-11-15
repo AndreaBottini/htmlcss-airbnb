@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  background-color: grey;
+  background: rgba(0, 0, 0, 0.8);
+}
