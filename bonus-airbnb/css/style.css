@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: pink;
+}
+
+nav {
+  background-color: white;
+  height: 80px;
+}
+
+.logo {
+  height: 80px;
+}
+
+ul.menu a {
+  text-decoration: none;
+  color: pink;
+}
+
+ul.menu li {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 10%;
+  color: pink;
+  font-size: 20px;
+  font-family: arial;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.container {
+  padding: 20px;
+}
+
+.capitaleA {
+  height: 30vh;
+  width: 20%;
+  background-image: url(../img/berlino.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  box-shadow: 3px 3px #808080;
+}
+
+.capitaleB {
+  height: 30vh;
+  width: 20%;
+  background-image: url(../img/istanbul.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  box-shadow: 3px 3px #808080;
+}
+
+.capitaleC {
+  height: 30vh;
+  width: 20%;
+  background-image: url(../img/Roma.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  box-shadow: 3px 3px #808080;
+}
+
+.capitaleD {
+  height: 30vh;
+  width: 20%;
+  background-image: url(../img/tokyo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  box-shadow: 3px 3px #808080;
+}
+
+.trasparenza {
+  position: relative;
+  height: 30vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.trasparenza:hover {
+  position: relative;
+  height: 30vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.testo {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 30px;
+  color: white;
+  font-family: fantasy;
+  text-shadow: 2px 2px #808080;
+  cursor: zoom-in;
+}
+.testo a {
+  text-decoration: none;
+  color: white;
+}
